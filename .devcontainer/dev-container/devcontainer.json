@@ -1,9 +1,9 @@
 {
 	"name": "pdt-dev01",
 	"context": ".",
-	"workspaceFolder": "/workspaces",
+	"workspaceFolder": "/workspaces",	
     "image": "pdt-dev01:latest",
-	// "dockerComposeFile": "docker-compose.yml",
+	// "dockerComposeFile": ["../../docker-compose.yml"],
 	"service": "pdt-dev01",
 	"extensions": [
 		"redhat.vscode-yaml",
