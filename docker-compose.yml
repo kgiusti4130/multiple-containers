@@ -26,9 +26,9 @@ services:
     restart: no
     # command: ['tail', '-f', '/dev/null']
     # network_mode: "host"
-    # environment:
-    #   - TZ=America/New_York
-    #   - DEBIAN_FRONTEND=noninteractive
-    #   - LC_ALL=UTF-8
+    environment:
+      - TZ=America/New_York
+      - DEBIAN_FRONTEND=noninteractive
+      - LC_ALL=UTF-8
     # volumes:
     #   - ../:/workspace
